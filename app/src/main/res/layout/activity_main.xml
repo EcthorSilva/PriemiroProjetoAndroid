@@ -16,12 +16,6 @@
         android:padding="20dp"
         android:src="@drawable/avataricon" />
 
-    <!-- <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Usuário:" /> -->
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,12 +25,6 @@
         android:maxLength="50"
         android:padding="10dp"
         android:textSize="15sp" />
-
-    <!-- <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Senha:" /> -->
 
     <EditText
         android:layout_width="match_parent"
