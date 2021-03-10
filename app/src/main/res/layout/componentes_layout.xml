@@ -34,6 +34,11 @@
         android:checked="true"
         android:text="escolha" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione seu sexo" />
+
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -48,5 +53,22 @@
             android:layout_height="wrap_content"
             android:text="masculino" />
     </RadioGroup>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
