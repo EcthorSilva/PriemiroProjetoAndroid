@@ -32,6 +32,8 @@
         android:background="@color/white"
         android:gravity="center_horizontal"
         android:hint="Email Addres"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
         android:padding="10sp"
         android:textColor="#878181"
         android:textColorHint="#CDC2C2" />
@@ -43,6 +45,8 @@
         android:background="@color/white"
         android:gravity="center_horizontal"
         android:hint="Password"
+        android:inputType="numberPassword"
+        android:maxLength="10"
         android:padding="10sp"
         android:textColor="#878181"
         android:textColorHint="#CDC2C2" />
